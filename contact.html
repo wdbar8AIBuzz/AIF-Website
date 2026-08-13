@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join — AI in Finance | University of Minnesota</title>
+  <meta name="description" content="Join AI in Finance (AIF) at the University of Minnesota. Open to all majors — no experience needed." />
+  <link rel="icon" type="image/png" href="assets/images/brand/aif-logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="contact-page">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-logo" aria-label="AI in Finance — University of Minnesota, home">
+        <img src="assets/images/brand/aif-logo.png" alt="AI in Finance — University of Minnesota" class="navbar-logo-img" />
+      </a>
+      <div class="navbar-right">
+        <ul class="navbar-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="team.html">Leadership</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-solid navbar-cta">Join AIF</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" style="display:none;">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="team.html">Leadership</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero join-map-hero" aria-label="Join AIF">
+    <div class="join-hero-illustration" aria-hidden="true">
+      <img src="assets/images/sketches/join-tabletop-hero.png" alt="" loading="eager" fetchpriority="high" />
+    </div>
+    <div class="container join-hero-content">
+      <p class="eyebrow">Get involved</p>
+      <h1 class="display">Join <em>AIF.</em></h1>
+      <p class="page-lead">Membership is open to all University of Minnesota students. Fill out the form or reach out directly.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-lower" aria-label="Contact AIF and submit interest form">
+    <div class="container">
+      <div class="contact-lower-grid">
+
+        <!-- Say hello -->
+        <div class="contact-lower-panel contact-hello-panel reveal">
+          <p class="eyebrow">Say hello</p>
+          <h2>We’d love to hear from you.</h2>
+          <p class="contact-lower-copy">Questions about membership, events, or opportunities?<br />Reach out—we’re happy to help.</p>
+
+          <div class="contact-links-card" aria-label="AIF contact links">
+            <a class="contact-link-row" href="mailto:aif@umn.edu">
+              <span class="contact-link-icon" aria-hidden="true"><i class="fa-regular fa-envelope"></i></span>
+              <span class="contact-link-label">Email us</span>
+              <span class="contact-link-value">aif@umn.edu</span>
+              <span class="contact-link-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-link-row" href="https://instagram.com/aifclub_umn" target="_blank" rel="noopener">
+              <span class="contact-link-icon" aria-hidden="true"><i class="fa-brands fa-instagram"></i></span>
+              <span class="contact-link-label">Instagram</span>
+              <span class="contact-link-value">@aifclub_umn</span>
+              <span class="contact-link-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-link-row" href="https://www.linkedin.com/company/umnaif" target="_blank" rel="noopener">
+              <span class="contact-link-icon" aria-hidden="true"><i class="fa-brands fa-linkedin"></i></span>
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-value">AIF at UMN</span>
+              <span class="contact-link-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-link-row" href="events.html">
+              <span class="contact-link-icon" aria-hidden="true"><i class="fa-regular fa-calendar-days"></i></span>
+              <span class="contact-link-label">Meet at an event</span>
+              <span class="contact-link-value">Check out our upcoming events</span>
+              <span class="contact-link-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interest form -->
+        <div class="contact-form-panel reveal">
+          <p class="eyebrow">Interest form</p>
+          <form id="joinForm" class="contact-interest-form" action="https://script.google.com/macros/s/AKfycbwDFNiQv3w5AtWSkzb-v3vPQTqfM_qtbSa3OMyTl9DDQXlJJWn12jqY8XMHnGQw8AGSPw/exec" method="POST" target="aif-submit-frame">
+            <div class="contact-form-field">
+              <label for="firstName">First name</label>
+              <input type="text" id="firstName" name="firstName" autocomplete="given-name" required />
+            </div>
+
+            <div class="contact-form-field">
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" name="lastName" autocomplete="family-name" required />
+            </div>
+
+            <div class="contact-form-field full">
+              <label for="email">UMN email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+
+            <div class="contact-form-field">
+              <label for="year">Year in school</label>
+              <input type="text" id="year" name="year" />
+            </div>
+
+            <div class="contact-form-field">
+              <label for="major">Major</label>
+              <input type="text" id="major" name="major" />
+            </div>
+
+            <div class="contact-form-field full">
+              <label for="message">Anything you’d like us to know? (optional)</label>
+              <textarea id="message" name="comments" rows="3"></textarea>
+            </div>
+
+            <div class="contact-form-submit">
+              <button type="submit" class="btn btn-solid contact-submit-button">Submit</button>
+            </div>
+
+            <p class="contact-form-note">By submitting, you agree to receive updates about AIF events and opportunities.</p>
+          </form>
+          <iframe name="aif-submit-frame" id="aif-submit-frame" title="AIF form submission" style="display:none;"></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-word">AI in <em>Finance.</em></p>
+          <p>AI in Finance (AIF) is a University of Minnesota student organization exploring the intersection of artificial intelligence and the financial industry. AIF operates in accordance with all University of Minnesota policies.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/aifclub_umn" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/umnaif" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:aif@umn.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Navigate</h5>
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Leadership</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h5>Get involved</h5>
+          <a href="contact.html">Join AIF</a>
+          <a href="contact.html">Contact us</a>
+          <a href="events.html">Attend events</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AI in Finance — University of Minnesota</p>
+        <p>Made with care by the <span>AIF Board</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
